@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'bonsad' ;
+            src: url('fontes/Bonsad-Regular.otf') format('opentype');
+            font-weight: normal;
+            font-size: normal;
+        }
+            /* tipos de formqto() 
+            -opentype(otf)
+            -true type(ttf)
+            -embedded-opentype
+            */
+
+        @font-face{
+            font-family: 'terror';
+            src:url('fontes/blood_victim_zombie/Blood\ Victim\ Zombie.ttf') format('truetype');
+            font-size: normal;
+            font-weight: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'terror';
+            font-size: 3em;
+            margin: auto ;
+            text-align: center;
+            color: red;
+            text-shadow: 5px 5px 10px black;
+        }
+
+        h2{
+            font-family: 'bonsad';
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>A lua sangrenta</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam tempora dolor quos nesciunt facilis beatae perferendis, voluptates, possimus quam accusantium in autem aspernatur debitis numquam hic, odio iure itaque iusto.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, minus ad. Nam aliquid ipsum eveniet pariatur maxime perferendis nobis odit reprehenderit similique unde adipisci exercitationem quas, modi temporibus, voluptatem suscipit.</p>
+    <h2>Capitulo 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quae debitis delectus recusandae ea odio mollitia culpa earum, aperiam soluta commodi facere, itaque dolorem nulla officia perspiciatis iure repellat quos.</p>
+</body>
+</html>
